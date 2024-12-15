@@ -1,11 +1,10 @@
-# Web Dev Starter
+# gknutson1.github.io
 
-Boilerplate for static websides.
+My private website :)
 
-## What is this?
+Written in XHTML,
+Using [DaisyUI](https://daisyui.com/) dark color scheme.
 
-* Starting point for static websites
+### Usage
 
-## How do I use this?
-
-* Clone this repo
+Clone this repo, then either open index.xhtml or host this folder on a webserver.
