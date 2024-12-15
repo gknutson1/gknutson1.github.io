@@ -19,31 +19,17 @@ body {
 
 .main {
   padding: 8px;
+  padding-top: 16px;
   color: var(--neutral-content);
   background-color: var(--neutral);
-  height: calc(100vh - 16px);
   position: relative;
 }
 
-@media (max-width: 30em) {
-  .main {
-    width: calc(100% - 16px);
-    left: 0;
-  }
-}
-
-@media (min-width: 30em) and (max-width: 60em) {
-  .main {
-    width: calc(30em - 16px);
-    left: calc( (100% - 30em) / 2);
-  }
-}
-
-@media (min-width: 60em) {
-  .main {
-    width: 50%;
-    left: 25%
-  }
+img {
+  width: 50%;
+  border-radius: 1em;
+  margin: auto;
+  display: block;
 }
 
 h2, h3 {
@@ -56,4 +42,29 @@ p {
 
 .no-center {
   text-align: start;
+}
+
+@media (max-width: calc(30em + 16px)) {
+  .main {
+    width: calc(100% - 16px);
+    left: 0;
+  }
+}
+
+@media (min-width: calc(30em + 16px)) and (max-width: 60em) {
+  .main {
+    width: calc(30em);
+    left: calc( ((100% - 30em) / 2) - 8px);
+  }
+}
+
+@media (min-width: 60em) {
+  .main {
+    width: 50%;
+    left: 25%
+  }
+
+  img {
+    width: 15em;
+  }
 }
