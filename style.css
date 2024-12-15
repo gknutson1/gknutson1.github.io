@@ -12,11 +12,13 @@ body {
 }
 
 body {
+  margin: 0;
   background-color: var(--base-100);
   font-family: Noto Sans, serif
 }
 
 .main {
+  padding: 8px;
   color: var(--neutral-content);
   background-color: var(--neutral);
   position: relative;
