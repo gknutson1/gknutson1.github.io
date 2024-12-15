@@ -6,8 +6,27 @@ body {
 
 .main {
   position: relative;
-  width: 50%;
-  left: 25%;
+}
+
+@media (max-width: 30em) {
+  .main {
+    width: 100%;
+    left: 0;
+  }
+}
+
+@media (min-width: 30em) and (max-width: 60em) {
+  .main {
+    width: 30em;
+    left: calc( (100% - 30em) / 2);
+  }
+}
+
+@media (min-width: 60em) {
+  .main {
+    width: 50%;
+    left: 25%
+  }
 }
 
 h2, h3 {
