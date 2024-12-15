@@ -27,11 +27,19 @@ body {
   width: 1em;
 }
 
-.headshot {
-  width: 50%;
+.headshot, .projects {
   border-radius: 1em;
   margin: auto;
   display: block;
+}
+
+.headshot {
+  width: 50%;
+}
+
+.projects {
+  width: 75%;
+  max-width: 40em;
 }
 
 .end-buffer {
