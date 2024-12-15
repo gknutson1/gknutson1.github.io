@@ -1,4 +1,23 @@
 body {
   color: #E8E8E8;
   background-color: #181818;
+  font-family: Noto Sans, serif
+}
+
+.main {
+  position: relative;
+  width: 50%;
+  left: 25%;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.no-center {
+  text-align: start;
 }
