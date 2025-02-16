@@ -70,7 +70,7 @@ li {
 .main {
   padding: 16px 8px 8px;
   color: var(--neutral-content);
-  background: linear-gradient(to bottom, var(--neutral) 0%, var(--neutral) calc(100% - 25vh - 32px), var(--base-100));
+  background: linear-gradient(to bottom, var(--neutral) 0%, var(--neutral) calc(100% - 25vh - 2em), var(--base-100));
   position: relative;
   height: 100%;
   margin: auto;
@@ -88,6 +88,10 @@ li {
 
 .no-center {
   text-align: start;
+}
+
+.badge {
+  height: 2em;
 }
 
 @media (max-width: calc(30em + 16px)) {
